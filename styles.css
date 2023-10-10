@@ -28,7 +28,6 @@ body {
 }
 main {
     flex-grow: 1;
-    background: #1F2937;
     justify-content: center;
     align-items: center;
 }
@@ -46,7 +45,6 @@ header {
     background: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 8px;
     display: flex;
     align-items: center;
     padding: 20px 300px;
@@ -121,4 +119,47 @@ a:hover {
     padding: 8px 30px;
     border-radius: 5px;
     border: none;
+}
+
+.sectionTwo {
+    background: #f0f0f0;
+}
+.infoHeader {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.infoImages {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly
+}
+.infoContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.infoPicture {
+    display: flex;
+    width: 80px;
+    margin: 0 auto;
+    border: 3px solid black;
+    height: auto;
+}
+.imageSubtext {
+    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.sectionThree {
+    background: #d9d9d9;
+}
+
+.sectionFour {
+    background: #f0f0f0;
 }
