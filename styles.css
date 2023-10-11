@@ -76,7 +76,6 @@ a:hover {
 
 .sectionOne {
     font-family: sans-serif;
-    display: block;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -116,9 +115,13 @@ a:hover {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    padding: 8px 30px;
+    padding: 6px 24px;
     border-radius: 5px;
     border: none;
+}
+.btnSignUp:hover {
+    background: #2556a7;
+    cursor: pointer;
 }
 
 .sectionTwo {
@@ -126,10 +129,9 @@ a:hover {
 }
 .infoHeader {
     font-weight: bold;
-    font-size: 24px;
-    color: black;
-    display: flex;
-    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 60px;
 }
 .infoImages {
     display: flex;
@@ -143,14 +145,19 @@ a:hover {
 }
 .infoPicture {
     display: flex;
-    width: 80px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
-    border: 3px solid black;
-    height: auto;
+    padding: 5px;
+    border-bottom: 4px solid black;
+    align-items: center;
 }
 .imageSubtext {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 14px;
     padding-top: 10px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -159,7 +166,50 @@ a:hover {
 .sectionThree {
     background: #d9d9d9;
 }
+.quote {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 85%;
+    margin: 0 auto;
+}
+.quotee {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
 
 .sectionFour {
     background: #f0f0f0;
+}
+.columnFour {
+    font-family: sans-serif;
+    background: #3882F6;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.callToAction {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.btnSignUp.two {
+    border: 2px solid white;
+}
+
+footer {
+    background: #1F2937;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
